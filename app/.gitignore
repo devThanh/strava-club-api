@@ -1,0 +1,63 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Môi trường ảo (Virtual Environments) ---
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Biến môi trường (Environment Variables) ---
+# KHÔNG BAO GIỜ commit file .env chứa mật khẩu/token lên Git
+.env
+.flaskenv
+*.env
+
+# --- FastAPI / Uvicorn ---
+# Nếu bạn dùng file log
+*.log
+
+# --- Thư viện & Công cụ khác ---
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints
+
+# --- Database ---
+# Loại bỏ các file database local (SQLite)
+*.db
+*.sqlite3
+
+# --- IDEs ---
+# PyCharm, VS Code
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- OS rác ---
+.DS_Store
+Thumbs.db
